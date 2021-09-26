@@ -1,0 +1,152 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+#intro-section {
+    height: 87%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    #intro-section {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse, .page-footer {
+    background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #563e91 !important;
+    }
+}
+
+.rgba-gradient {
+    background: rgba(35, 7, 77, 0.6);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 66, 37, 0.5)), color-stop(100%, rgba(0, 47, 75, 0.5)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Opera 11.10+ */
+    /* IE10+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 47, 75, 0.5)), to(rgba(220, 66, 37, 0.5)));
+    background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+}
+.intro-text{
+        width: 100%;
+    text-align: center;
+}
+.intro-text .input-group-lg input{
+    height: 66px !important;
+}
+
+.intro-text .input-group-lg button{
+    margin:0px;
+    
+}
+.share-div {
+    width: 100%;
+    /* margin: 100px auto; */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.share-div h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.share-div ul {
+    margin: 0;
+    padding: 0;
+}
+.share-div ul li {
+    list-style: none;
+    float: left;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+}
+.share-div ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.share-div ul li a .fa {
+    font-size: 40px;
+    transition: .5s;
+}
+.share-div ul li a:hover .fa {
+    transform: rotateY(360deg);
+}
+.share-div ul li:nth-child(1) a {
+    background: #3b5999;
+}
+.share-div ul li:nth-child(2) a {
+    background: #55acee;
+}
+.share-div ul li:nth-child(3) a {
+    background: #dd4b39;
+}
+.share-div ul li:nth-child(4) a {
+    background: #4CAF50;
+}
+.share-div ul li:nth-child(5) a {
+    background: #00aff0;
+}
+.share-div ul li:nth-child(6) a {
+    background: #e4405f;
+}
+.share-div ul li:nth-child(7) a {
+    background: #cd201f;
+}
+.share-div ul li:nth-child(8) a {
+    background: #bd081c;
+}
+
+@media (max-width: 992px) {
+    .share-div h1 {font-size: 30px;}
+    .share-div ul li {width: calc(100% / 4);}
+}
+
+@media (max-width: 768px) {
+    .share-div {width: 100%;}
+}
+
+@media (max-width: 480px) {
+    .share-div {margin: 20px auto;}
+    .share-div ul li {width: calc(100% / 2);}
+}
+@media (max-width: 360px) {
+    .share-div {margin: 0 auto;}
+    .share-div ul li {width: calc(100% / 1);}
+}

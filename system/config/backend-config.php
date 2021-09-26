@@ -1,0 +1,1 @@
+<?php $backend_config["email"] = "admin@test.com";$backend_config["password"] = "123456";?>

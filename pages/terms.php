@@ -1,0 +1,3 @@
+ <h2 class="h1-responsive font-weight-bold">Terms page</h2>
+                <!-- Section description -->
+                <p class="grey-text w-responsive mx-auto">Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here Terms page content here</p>

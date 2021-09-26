@@ -1,0 +1,1 @@
+<img src="img/728.png" class="img-responsive img-fluid rounded mx-auto d-block">
